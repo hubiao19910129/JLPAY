@@ -2,9 +2,10 @@ import pymysql
 
 #创建连接
 connection = pymysql.connect("172.20.2.126",
-                             "sp_user",
-                             "testjob",
-                             "sp_db")
+                             "username",
+                             "password",
+                             "dbname",
+                             "")
 print("connection succesfull!")
 
 #创建游标对象sp_db
