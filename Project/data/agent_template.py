@@ -4,9 +4,9 @@ ProfitRPCService = {"command_id" : "ProfitRPCService","date" : "2020-02-11","ski
 #添加下级合伙人
 agentAddV2 ={
     "command_id":"agentAddV2",
-    "s_user_id":"50263545",    #添加人ID--必输项
+    "s_user_id":"50263545",    ##添加人ID--必输项
     "operatorId":"",
-    "phone":"15503231623",        #手机号--必输项，同时存数据库的Account、Phone
+    "phone":"15503241653",        ##手机号--必输项，同时存数据库的Account、Phone
     "rule":{"1-0-10":0.31,
              "1-0-5":0.54},      #分润规则,JSON格式，如：{ "1-0-1":"0.56", "1-0-2":"0.59"}
     "withdraw":"0",    #是否允许提现，0表示不允许，1表示允许，默认0
@@ -14,7 +14,7 @@ agentAddV2 ={
     "profitRuleConfigId":{"1":"1754"},  #分润规则套餐ID{"机具类型":"套餐ID"}
     "logId":"docapi_logId",   #日志ID
     "s_user_id":"50263545",           #session 用户id
-    "s_user_name":"胡彪",         #session 用户名
+    "s_user_name":"胡彪",             #session 用户名
     "operatorId":"50263545"           #session 操作者ID
 }
 #确定协议

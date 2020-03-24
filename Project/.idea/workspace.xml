@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ffdf1ca8-4fff-473a-bc6f-da353e21869e" name="Default Changelist" comment="" />
+    <list default="true" id="ffdf1ca8-4fff-473a-bc6f-da353e21869e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/data/withdraw_template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/agent_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/agent_template.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/data/host_template.py" beforeDir="false" afterPath="$PROJECT_DIR$/data/host_template.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +39,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -48,7 +55,7 @@
       <recent name="D:\JLPAY\python2020\project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests in test_addAgent2.py">
+  <component name="RunManager" selected="Python tests.Unittests for test_addAgent2.TestAgentAddV2.test_agentAddV2">
     <configuration name="66666" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -70,25 +77,18 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="get_datas" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_addAgent2.TestAgentAddV2.test_agentAddV2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cass" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/get_datas.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_addAgent2.TestAgentAddV2.test_agentAddV2&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Unittests for test_agentAddV2.TestAgentAddV2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
@@ -135,11 +135,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.Unittests for test_addAgent2.TestAgentAddV2.test_agentAddV2" />
         <item itemvalue="Python tests.Unittests in test_addAgent2.py" />
         <item itemvalue="Python tests.Unittests for test_agentAddV2.TestAgentAddV2.test_agentAddV2" />
         <item itemvalue="Python tests.Unittests for test_agentAddV2.TestAgentAddV2" />
         <item itemvalue="Python.66666" />
-        <item itemvalue="Python.get_datas" />
       </list>
     </recent_temporary>
   </component>
@@ -156,6 +156,9 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="714" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584691201007">
       <screen x="0" y="0" width="1920" height="1040" />
@@ -165,6 +168,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583242212185" />
+    <state x="1037" y="137" key="CommitChangelistDialog2" timestamp="1585045384478">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1037" y="137" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585045384478" />
     <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1584871597178">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -205,18 +212,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1882" height="326" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1584709844266" />
-    <state x="644" y="134" key="SettingsEditor" timestamp="1584871860681">
+    <state x="644" y="134" key="SettingsEditor" timestamp="1585013744063">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="134" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584871860681" />
+    <state x="644" y="134" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585013744063" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1584872005739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584872005739" />
-    <state x="645" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1583717525283">
+    <state x="645" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1585033996633">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="645" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583717525283" />
+    <state x="645" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585033996633" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1584882122575">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
