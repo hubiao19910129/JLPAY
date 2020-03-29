@@ -34,8 +34,8 @@ class TestDataBaseOracle(object):
             connection.close()
 
 if __name__ == "__main__":
-    # db = "agent_user2/123456@172.20.6.22:1521/mpos"
-    # sql = "select * from t_profit_amount where user_id = 50263545"
-    # TestDataBaseOracle(database=db,sql=sql).test_database_oracle()
+    db = "agent_user2/123456@172.20.6.22:1521/mpos"
+    sql = "select * from t_profit_amount where user_id = 50263545"
+    TestDataBaseOracle(database=db,sql=sql).test_database_oracle()
 
 
