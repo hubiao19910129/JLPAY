@@ -2,12 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ffdf1ca8-4fff-473a-bc6f-da353e21869e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/zero/config.ini" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero/file_redact.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero/os_path.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/zero/read_config.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cass/test_mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/data/mysql_data.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbie/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbie/draw_pikachu.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbie/str_formate.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbie/循环语句.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbie/数据类型.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbie/运算符.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/run_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/database_mysql.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tools/read_mysql.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cass/test_database_mysql.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/client_thrift/api_client.py" beforeDir="false" afterPath="$PROJECT_DIR$/client_thrift/api_client.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2020_03_01 23_39_55.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2020_03_01 23_41_40.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2020_03_01 23_42_32.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/report/2020_03_03 21_31_44.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/run_case.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/tools/database_oracle.py" beforeDir="false" afterPath="$PROJECT_DIR$/tools/database_oracle.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zero/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/newbie/config.ini" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zero/file_redact.py" beforeDir="false" afterPath="$PROJECT_DIR$/newbie/文件处理.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zero/os_path.py" beforeDir="false" afterPath="$PROJECT_DIR$/newbie/os_path.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/zero/read_config.py" beforeDir="false" afterPath="$PROJECT_DIR$/newbie/read_config.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,8 +74,8 @@
       <recent name="D:\JLPAY\python2020\project\tools" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.os_path">
-    <configuration name="database_oracle (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python tests.Unittests for test_agentAddV2.TestAgentAddV2.test_agentAddV2">
+    <configuration name="run_test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,11 +83,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tools" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tools/database_oracle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/run_test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,70 +96,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="file_redact" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zero" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zero/file_redact.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="os_path" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zero" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zero/os_path.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="read_config" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="project" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/zero" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/zero/read_config.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Unittests for test_addAgent2.TestAgentAddV2.test_agentAddV2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_agentAddV2.TestAgentAddV2.test_agentAddV2" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="project" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -151,17 +106,59 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_addAgent2.TestAgentAddV2.test_agentAddV2&quot;" />
+      <option name="_new_target" value="&quot;test_agentAddV2.TestAgentAddV2.test_agentAddV2&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for test_login.TestLogin.test_login" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cass" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestLogin.test_login&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_login.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cass" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/cass/test_login.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in test_mysql.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/cass" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/cass/test_mysql.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.os_path" />
-        <item itemvalue="Python.file_redact" />
-        <item itemvalue="Python.read_config" />
-        <item itemvalue="Python.database_oracle (1)" />
-        <item itemvalue="Python tests.Unittests for test_addAgent2.TestAgentAddV2.test_agentAddV2" />
+        <item itemvalue="Python tests.Unittests for test_agentAddV2.TestAgentAddV2.test_agentAddV2" />
+        <item itemvalue="Python.run_test" />
+        <item itemvalue="Python tests.Unittests in test_mysql.py" />
+        <item itemvalue="Python tests.Unittests for test_login.TestLogin.test_login" />
+        <item itemvalue="Python tests.Unittests in test_login.py" />
       </list>
     </recent_temporary>
   </component>
@@ -182,10 +179,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="714" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1584691201007">
+    <state x="714" y="321" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1585997444893">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="714" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1584691201007" />
+    <state x="714" y="321" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1585997444893" />
     <state x="690" y="265" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1585500019716">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -194,72 +191,61 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1037" y="137" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1585064412750" />
-    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1585500632967">
+    <state x="740" y="274" key="FileChooserDialogImpl" timestamp="1586099310573">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1585500632967" />
+    <state x="740" y="274" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1586099310573" />
     <state x="823" y="410" key="Github.ShareDialog" timestamp="1584871933988">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="823" y="410" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584871933988" />
-    <state width="1899" height="338" key="GridCell.Tab.0.bottom" timestamp="1585501454157">
+    <state width="1899" height="338" key="GridCell.Tab.0.bottom" timestamp="1586173703597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585501454157" />
-    <state width="1899" height="338" key="GridCell.Tab.0.center" timestamp="1585501454156">
+    <state width="1899" height="338" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586173703597" />
+    <state width="1899" height="338" key="GridCell.Tab.0.center" timestamp="1586173703597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585501454156" />
-    <state width="1899" height="338" key="GridCell.Tab.0.left" timestamp="1585501454156">
+    <state width="1899" height="338" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586173703597" />
+    <state width="1899" height="338" key="GridCell.Tab.0.left" timestamp="1586173703597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585501454156" />
-    <state width="1899" height="338" key="GridCell.Tab.0.right" timestamp="1585501454157">
+    <state width="1899" height="338" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586173703597" />
+    <state width="1899" height="338" key="GridCell.Tab.0.right" timestamp="1586173703597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585501454157" />
-    <state width="1899" height="338" key="GridCell.Tab.1.bottom" timestamp="1585501454157">
+    <state width="1899" height="338" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586173703597" />
+    <state width="1899" height="338" key="GridCell.Tab.1.bottom" timestamp="1586173703597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1585501454157" />
-    <state width="1899" height="338" key="GridCell.Tab.1.center" timestamp="1585501454157">
+    <state width="1899" height="338" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1586173703597" />
+    <state width="1899" height="338" key="GridCell.Tab.1.center" timestamp="1586173703597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1585501454157" />
-    <state width="1899" height="338" key="GridCell.Tab.1.left" timestamp="1585501454157">
+    <state width="1899" height="338" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1586173703597" />
+    <state width="1899" height="338" key="GridCell.Tab.1.left" timestamp="1586173703597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1585501454157" />
-    <state width="1899" height="338" key="GridCell.Tab.1.right" timestamp="1585501454157">
+    <state width="1899" height="338" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1586173703597" />
+    <state width="1899" height="338" key="GridCell.Tab.1.right" timestamp="1586173703597">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1899" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1585501454157" />
-    <state x="644" y="134" key="SettingsEditor" timestamp="1585147093892">
+    <state width="1899" height="338" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1586173703597" />
+    <state x="644" y="134" key="SettingsEditor" timestamp="1586173548327">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="644" y="134" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1585147093892" />
+    <state x="644" y="134" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1586173548327" />
     <state x="552" y="252" key="Vcs.Push.Dialog.v2" timestamp="1584872005739">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="252" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1584872005739" />
-    <state x="645" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1585488291022">
+    <state x="645" y="342" key="com.intellij.ide.util.TipDialog" timestamp="1585991750620">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="645" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585488291022" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1585491549001">
+    <state x="645" y="342" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1585991750620" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1586140787267">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1585491549001" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/cass/test_database_mysql.py</url>
-          <line>6</line>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1586140787267" />
   </component>
 </project>

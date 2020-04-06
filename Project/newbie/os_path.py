@@ -19,7 +19,7 @@ class OsPath(object):
 
     def get_localPath(self):
         #获取当前文件的绝对路径，带有文件名
-        file = os.path.realpath(__file__) #D:\TOOLS\JLPAY\JLPAY\Project\zero\os_path.py
+        file = os.path.realpath(__file__) #D:\TOOLS\JLPAY\JLPAY\Project\newbie\os_path.py
         # file = __file__
         print("当前文件信息为：%s"%(file))
 
@@ -43,6 +43,7 @@ class OsPath(object):
         #方法用于返回指定的文件夹包含的文件或文件夹的名字的列表
         list = os.listdir(filePath)
         print("目录%s下的文件有：%s"%(filePath,list))
+
 
 
 

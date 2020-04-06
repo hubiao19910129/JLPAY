@@ -15,7 +15,7 @@ class TestDataBaseOracle(object):
 
         try:
             connection = cx_Oracle.connect(self.database)
-            print("connection succesfull")
+            print("{:*^50}".format("congratulation connect Oracle is successful !"))
         except Exception as e:
             print(e)
             raise Exception("数据库连接失败，数据库信息：{}".format(self.database))
@@ -27,7 +27,7 @@ class TestDataBaseOracle(object):
             #获取查询结果
             result = cursor.fetchall()
             print(result)
-
+        finally:
             #关闭游标对象
             cursor.close()
             #关闭连接对象

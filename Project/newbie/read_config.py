@@ -8,12 +8,22 @@ configparser-INI配置文件解析工具
 class ReadConfig(object):
     def __init__(self,filename):
         #设置配置文件路径
-        self.filepath = "../zero/" + filename
+        self.filepath = "../newbie/" + filename
+    def read_mysql(self):
+        config = configparser.ConfigParser()
+        config.read(self.filepath,encoding="utf-8")
+        db_ip = config["mysql"]["db_ip"]
+        username = config.get("mysql","username")
+        password = config.get("mysql","password")
+        db_name = config.get("mysql","db_name")
+
+        print("config.ini文件的数据:db_ip:{0},username:{1},password:{2},db_name:{3}".format(db_ip,username,password,db_name))
+        return db_ip,username,password,db_name
 
     def read_config(self):
         #配置文件读入
         config = configparser.ConfigParser()
-        config.read(self.filepath,encoding="utf-8")
+        config.read(self.filepath,encoding="utf-8-sig")
 
         #读取DB部分
         db_ip = config.get("db","ip")
@@ -71,4 +81,4 @@ class ReadConfig(object):
 
 
 if __name__ == "__main__":
-    ReadConfig("config.ini").read_config()
+    ReadConfig("config.ini").read_mysql()

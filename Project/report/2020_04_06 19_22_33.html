@@ -247,9 +247,9 @@ function close_shots(obj) {
 </div>
 <div class='heading'>
 <h1>彪哥威武</h1>
-<p class='attribute'><strong>开始时间:</strong> 2020-03-01 23:41:40</p>
-<p class='attribute'><strong>耗时:</strong> 0:00:00</p>
-<p class='attribute'><strong>状态:</strong> <span class="tj errorCase">Error</span>3</p>
+<p class='attribute'><strong>开始时间:</strong> 2020-04-06 19:22:33</p>
+<p class='attribute'><strong>耗时:</strong> 0:00:00.070751</p>
+<p class='attribute'><strong>状态:</strong> <span class="tj passCase">Pass</span>1 <span class="tj failCase">Failure</span>1 <span class="tj errorCase">Error</span>4</p>
 
 <p class='description'>测试环境 WIN7</p>
 </div>
@@ -282,24 +282,24 @@ function close_shots(obj) {
     <td>错误截图</td>
 </tr>
 
-<tr class='errorClass'>
-    <td>unittest.loader._FailedTest</td>
-    <td>3</td>
+<tr class='failClass'>
+    <td>test_addAgent2.TestAgentAddV2</td>
+    <td>1</td>
     <td>0</td>
+    <td>1</td>
     <td>0</td>
-    <td>3</td>
-    <td><a href="javascript:showClassDetail('c1',3)">详情</a></td>
+    <td><a href="javascript:showClassDetail('c1',1)">详情</a></td>
     <td>&nbsp;</td>
 </tr>
 
 <tr id='ft1.1' class='none'>
-    <td ><div class='testcase'>test_channels</div></td>
+    <td ><div class='testcase'>test_agentAddV2</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <span class='status errorCase'>
+    <span class='status failCase'>
     <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
-        错误</a></span>
+        失败</a></span>
 
     <div id='div_ft1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
@@ -308,19 +308,106 @@ function close_shots(obj) {
         </div>
         <pre>
         
-ft1.1: ImportError: Failed to import test module: test_channels
+ft1.1: datas的值为：{"command_id": "agentAddV2", "s_user_id": "50263545", "operatorId": "50263545", "phone": "15503241653", "rule": {"1-0-10": 0.31, "1-0-5": 0.54}, "withdraw": "0", "taxPoint": "0", "profitRuleConfigId": {"1": "1754"}, "logId": "docapi_logId", "s_user_name": "\u80e1\u5f6a"}
+&lt;class 'str'&gt;
+api_client调用结果为:{'ret_code': 'A02', 'ret_msg': '账号已存在'}
+test_agentAddV2执行结果为：{'ret_code': 'A02', 'ret_msg': '账号已存在'}
 Traceback (most recent call last):
-  File "D:\JLPAY\python2020\program\lib\unittest\loader.py", line 436, in _find_test_path
+  File "D:\TOOLS\JLPAY\JLPAY\Project\cass\test_addAgent2.py", line 21, in test_agentAddV2
+    self.assertEqual(ret_code,"00")
+AssertionError: 'A02' != '00'
+- A02
++ 00
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr class='passClass'>
+    <td>test_agentAddV2.TestAgentAddV2</td>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+    <td>0</td>
+    <td><a href="javascript:showClassDetail('c2',1)">详情</a></td>
+    <td>&nbsp;</td>
+</tr>
+
+<tr id='pt2.1' class='hiddenRow'>
+    <td ><div class='testcase'>test_agentAddV2</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status passCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
+        通过</a></span>
+
+    <div id='div_pt2.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+pt2.1: datas的值为：{"command_id": "ProfitRPCService", "date": "2020-02-11", "skipCheck": "1"}
+&lt;class 'str'&gt;
+api_client调用结果为:{'ret_code': '00', 'ret_msg': '处理成功'}
+test_agentAddV2执行结果为：{'ret_code': '00', 'ret_msg': '处理成功'}
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
+<tr class='errorClass'>
+    <td>unittest.loader._FailedTest</td>
+    <td>4</td>
+    <td>0</td>
+    <td>0</td>
+    <td>4</td>
+    <td><a href="javascript:showClassDetail('c3',4)">详情</a></td>
+    <td>&nbsp;</td>
+</tr>
+
+<tr id='ft3.1' class='none'>
+    <td ><div class='testcase'>test_channels</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.1')" >
+        错误</a></span>
+
+    <div id='div_ft3.1' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.1').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft3.1: ImportError: Failed to import test module: test_channels
+Traceback (most recent call last):
+  File "D:\python3\program\lib\unittest\loader.py", line 434, in _find_test_path
     module = self._get_module_from_name(name)
-  File "D:\JLPAY\python2020\program\lib\unittest\loader.py", line 377, in _get_module_from_name
+  File "D:\python3\program\lib\unittest\loader.py", line 375, in _get_module_from_name
     __import__(name)
-  File "D:\JLPAY\python2020\project\cass\test_channels.py", line 18, in &lt;module&gt;
+  File "D:\TOOLS\JLPAY\JLPAY\Project\cass\test_channels.py", line 18, in &lt;module&gt;
     class TestChannels(unittest.TestCase):
-  File "D:\JLPAY\python2020\project\cass\test_channels.py", line 19, in TestChannels
+  File "D:\TOOLS\JLPAY\JLPAY\Project\cass\test_channels.py", line 19, in TestChannels
     @parameterized.expand(get_data())
-  File "D:\JLPAY\python2020\project\cass\test_channels.py", line 7, in get_data
+  File "D:\TOOLS\JLPAY\JLPAY\Project\cass\test_channels.py", line 7, in get_data
     data = ReadJson("channel.json").read_json()
-  File "D:\JLPAY\python2020\project\tools\read_json.py", line 23, in read_json
+  File "D:\TOOLS\JLPAY\JLPAY\Project\tools\read_json.py", line 23, in read_json
     with open(self.filepath, "r", encoding="utf-8") as f:
 FileNotFoundError: [Errno 2] No such file or directory: '../data/channel.json'
 
@@ -334,35 +421,35 @@ FileNotFoundError: [Errno 2] No such file or directory: '../data/channel.json'
     <td></td>
 </tr>
 
-<tr id='ft1.2' class='none'>
+<tr id='ft3.2' class='none'>
     <td ><div class='testcase'>test_login</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
     <span class='status errorCase'>
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.2')" >
         错误</a></span>
 
-    <div id='div_ft1.2' class="popup_window">
+    <div id='div_ft3.2' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.2').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.2: ImportError: Failed to import test module: test_login
+ft3.2: ImportError: Failed to import test module: test_login
 Traceback (most recent call last):
-  File "D:\JLPAY\python2020\program\lib\unittest\loader.py", line 436, in _find_test_path
+  File "D:\python3\program\lib\unittest\loader.py", line 434, in _find_test_path
     module = self._get_module_from_name(name)
-  File "D:\JLPAY\python2020\program\lib\unittest\loader.py", line 377, in _get_module_from_name
+  File "D:\python3\program\lib\unittest\loader.py", line 375, in _get_module_from_name
     __import__(name)
-  File "D:\JLPAY\python2020\project\cass\test_login.py", line 18, in &lt;module&gt;
+  File "D:\TOOLS\JLPAY\JLPAY\Project\cass\test_login.py", line 18, in &lt;module&gt;
     class TestLogin(unittest.TestCase):
-  File "D:\JLPAY\python2020\project\cass\test_login.py", line 19, in TestLogin
+  File "D:\TOOLS\JLPAY\JLPAY\Project\cass\test_login.py", line 19, in TestLogin
     @parameterized.expand(get_data())
-  File "D:\JLPAY\python2020\project\cass\test_login.py", line 7, in get_data
+  File "D:\TOOLS\JLPAY\JLPAY\Project\cass\test_login.py", line 7, in get_data
     data = ReadJson("login.json").read_json()
-  File "D:\JLPAY\python2020\project\tools\read_json.py", line 23, in read_json
+  File "D:\TOOLS\JLPAY\JLPAY\Project\tools\read_json.py", line 23, in read_json
     with open(self.filepath, "r", encoding="utf-8") as f:
 FileNotFoundError: [Errno 2] No such file or directory: '../data/login.json'
 
@@ -376,35 +463,35 @@ FileNotFoundError: [Errno 2] No such file or directory: '../data/login.json'
     <td></td>
 </tr>
 
-<tr id='ft1.3' class='none'>
+<tr id='ft3.3' class='none'>
     <td ><div class='testcase'>test_login_more</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
     <span class='status errorCase'>
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.3')" >
         错误</a></span>
 
-    <div id='div_ft1.3' class="popup_window">
+    <div id='div_ft3.3' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.3').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.3: ImportError: Failed to import test module: test_login_more
+ft3.3: ImportError: Failed to import test module: test_login_more
 Traceback (most recent call last):
-  File "D:\JLPAY\python2020\program\lib\unittest\loader.py", line 436, in _find_test_path
+  File "D:\python3\program\lib\unittest\loader.py", line 434, in _find_test_path
     module = self._get_module_from_name(name)
-  File "D:\JLPAY\python2020\program\lib\unittest\loader.py", line 377, in _get_module_from_name
+  File "D:\python3\program\lib\unittest\loader.py", line 375, in _get_module_from_name
     __import__(name)
-  File "D:\JLPAY\python2020\project\cass\test_login_more.py", line 19, in &lt;module&gt;
+  File "D:\TOOLS\JLPAY\JLPAY\Project\cass\test_login_more.py", line 19, in &lt;module&gt;
     class TestLogin(unittest.TestCase):
-  File "D:\JLPAY\python2020\project\cass\test_login_more.py", line 20, in TestLogin
+  File "D:\TOOLS\JLPAY\JLPAY\Project\cass\test_login_more.py", line 20, in TestLogin
     @parameterized.expand(get_data())
-  File "D:\JLPAY\python2020\project\cass\test_login_more.py", line 7, in get_data
+  File "D:\TOOLS\JLPAY\JLPAY\Project\cass\test_login_more.py", line 7, in get_data
     datas = ReadJson("login_more.json").read_json()
-  File "D:\JLPAY\python2020\project\tools\read_json.py", line 23, in read_json
+  File "D:\TOOLS\JLPAY\JLPAY\Project\tools\read_json.py", line 23, in read_json
     with open(self.filepath, "r", encoding="utf-8") as f:
 FileNotFoundError: [Errno 2] No such file or directory: '../data/login_more.json'
 
@@ -418,18 +505,62 @@ FileNotFoundError: [Errno 2] No such file or directory: '../data/login_more.json
     <td></td>
 </tr>
 
+<tr id='ft3.4' class='none'>
+    <td ><div class='testcase'>test_mysql</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <span class='status errorCase'>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.4')" >
+        错误</a></span>
+
+    <div id='div_ft3.4' class="popup_window">
+        <div style='text-align: right; color:red;cursor:pointer'>
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.4').style.display = 'none' " >
+           [x]</a>
+        </div>
+        <pre>
+        
+ft3.4: ImportError: Failed to import test module: test_mysql
+Traceback (most recent call last):
+  File "D:\python3\program\lib\unittest\loader.py", line 434, in _find_test_path
+    module = self._get_module_from_name(name)
+  File "D:\python3\program\lib\unittest\loader.py", line 375, in _get_module_from_name
+    __import__(name)
+  File "D:\TOOLS\JLPAY\JLPAY\Project\cass\test_mysql.py", line 17, in &lt;module&gt;
+    class TestMysql(unittest.TestCase):
+  File "D:\TOOLS\JLPAY\JLPAY\Project\cass\test_mysql.py", line 18, in TestMysql
+    @parameterized.expand(get_config_data())
+  File "D:\TOOLS\JLPAY\JLPAY\Project\cass\test_mysql.py", line 10, in get_config_data
+    data = ReadConfig("config.ini").read_mysql()
+  File "D:\TOOLS\JLPAY\JLPAY\Project\newbie\read_config.py", line 15, in read_mysql
+    db_ip = config["mysql"]["db_ip"]
+  File "D:\python3\program\lib\configparser.py", line 958, in __getitem__
+    raise KeyError(key)
+KeyError: 'mysql'
+
+
+
+        </pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+    <td></td>
+</tr>
+
 <tr id='total_row'>
     <td>统计</td>
-    <td>3</td>
-    <td>0</td>
-    <td>0</td>
-    <td>3</td>
+    <td>6</td>
+    <td>1</td>
+    <td>1</td>
+    <td>4</td>
     <td>&nbsp;</td>
     <td>&nbsp;</td>
 </tr>
 </table>
 <script>
-    drawCircle(0, 0, 3)
+    drawCircle(1, 1, 4)
 </script>
 
 <div id='ending'>&nbsp;</div>

@@ -1,0 +1,1 @@
+sql = "select *  from gl_app_ios_release_info where commit_id='75a4059c4d9dc03c8929684b2f5a4d4a2bab29e8'"

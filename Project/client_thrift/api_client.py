@@ -43,6 +43,7 @@ class ApiClient(object):
             response_data = json.loads(json_response)
             print("api_client调用结果为:%s"%(response_data))
             return response_data
+        finally:
             transport.close()
 
 
